@@ -5,8 +5,6 @@ lazy val sprayArgonautSupport = Project(id = "spray-argonaut-suppo", base = file
     version := "0.1.0",
     scalaVersion := "2.11.6",
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
-    publishMavenStyle := false,
-    publishArtifact in Test := false,
     libraryDependencies ++= Seq(
       "io.argonaut"         %%  "argonaut"    % "6.1-M4"  % "provided",
       "io.spray"            %%  "spray-http"  % "1.3.1"   % "provided",
