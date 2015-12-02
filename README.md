@@ -1,1 +1,1 @@
-# Another Spray/Argonaut compatability Library.
+# Another Spray/Argonaut compatibility Library.
