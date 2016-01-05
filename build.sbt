@@ -1,8 +1,8 @@
-lazy val sprayArgonautSupport = Project(id = "spray-argonaut-suppo", base = file(".")).
+lazy val sprayArgonautSupport = Project(id = "spray-argonaut-support", base = file(".")).
   settings(
     organization := "org.jesusthecat",
     name := "spray-argonaut-support",
-    version := "0.1.0",
+    version := "0.1.1",
     scalaVersion := "2.11.6",
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
     libraryDependencies ++= Seq(
